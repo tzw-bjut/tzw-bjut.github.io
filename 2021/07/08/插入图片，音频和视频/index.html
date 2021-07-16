@@ -22,7 +22,7 @@
 
   
 
-  <title>hello-world | TZW-明月秋风</title>
+  <title>插入图片，音频和视频 | TZW-明月秋风</title>
 
   
 
@@ -98,20 +98,22 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">hello-world</h1>
+          <h1 class="title-wrap">插入图片，音频和视频</h1>
           <h2 class="title-sub-wrap">
             <strong>tzw-bjut</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2021-07-01T10:11:00.000Z" itemprop="datePublished">2021-07-01</time>
+            <time  class="article-date" datetime="2021-07-08T02:10:00.000Z" itemprop="datePublished">2021-07-08</time>
           </h2>
           <ul class="wrap-list dark">
   
 </ul>
           <ul class="wrap-list dark">
   
-    <li><a href="/tags/%E9%9A%8F%E7%AC%94/">🏷️ 随笔</a></li>
-  
     <li><a href="/tags/Hexo/">🏷️ Hexo</a></li>
+  
+    <li><a href="/tags/aplayer/">🏷️ aplayer</a></li>
+  
+    <li><a href="/tags/dplayer/">🏷️ dplayer</a></li>
   
 </ul>
         </div>
@@ -135,26 +137,33 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <p>这是我用 Hexo 在github_page上搭建的博客网站的第一次_post。这个 documentation 有更多关于它的使用信息。当然，如果你在使用这个 Hexo 时有任何问题，你都可以在 troubleshooting 找到想要的答案，或者访问Hexo的 GitHub 账号。这里就简单介绍一下关于Hexo的基本使用命令。</p>
-<span id="more"></span>
+        <p>Hexo提供了很多内置标签，如插入<code>Vimeo</code>, <code>Youtube</code>, <code>Image</code>等</p>
+<p>具体详情可查看: <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins">tag-plugins</a></p>
+<p>除了以上官方内置的标签，flex-block添加了以下自定义标签:</p>
+<h2 id="image"><a href="#image" class="headerlink" title="image"></a>image</h2><p>插入带描述的图片并支持懒加载(前提是游览器支持lazy)</p>
+<p>使用方法:</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;%  image</span><br><span class="line"><span class="code">    url=&quot;https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg&quot;</span></span><br><span class="line"><span class="code">    title=&quot;带描述带图片&quot;</span></span><br><span class="line"><span class="code">%&#125;</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h3><h5 id="CREATE-A-NEW-POST"><a href="#CREATE-A-NEW-POST" class="headerlink" title="CREATE A NEW POST"></a>CREATE A NEW POST</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure>
-<p>More info: Writing</p>
-<h5 id="RUN-SERVER"><a href="#RUN-SERVER" class="headerlink" title="RUN SERVER"></a>RUN SERVER</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: Server</p>
-<h5 id="GENERATE-STATIC-FILES"><a href="#GENERATE-STATIC-FILES" class="headerlink" title="GENERATE STATIC FILES"></a>GENERATE STATIC FILES</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: Generating</p>
-<h5 id="DEPLOY-TO-REMOTE-SITES"><a href="#DEPLOY-TO-REMOTE-SITES" class="headerlink" title="DEPLOY TO REMOTE SITES"></a>DEPLOY TO REMOTE SITES</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: Deployment</p>
-<h3 id="感想"><a href="#感想" class="headerlink" title="感想"></a>感想</h3><p>搭建一个这样的博客居然用了接近一天的时间，看来真的是一个菜狗呀！</p>
-<p>但是今天又恰逢建党100周年，有些想说的，奈何自己水平有限，说不出什么高端的东西，只是觉得为人民服务的党能够获得民众支持也是很自然的。习总书记的讲话也是特别那么的振奋人心。特别是直升机护旗编队悬挂的四句标语：</p>
-<p>伟大的中国共产党万岁！</p>
-<p>伟大的中国人民万岁！</p>
-<p>伟大的中华人民共和国万岁！</p>
-<p>全国各族人民大团结万岁！</p>
-<p>而我刚好在这一天建立了自己的博客，也算是代表自己的新征程吧！希望以后这里能够记录下许多自己的生活点滴。</p>
-<p>这里就当是我的私人空间，可以吐露自己心声的地方，排解一下心中的郁闷。当然也会分享一些自己学习到的新技术。</p>
 
+    <figure class="figure-image">
+      <img src="https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg" alt="带描述带图片" loading="lazy" />
+      <figcaption>带描述带图片</figcaption>
+    </figure>
+  
+
+
+<h2 id="aplayer"><a href="#aplayer" class="headerlink" title="aplayer"></a>aplayer</h2><p>插入aplayer音频播放器需要在<code>Front-matter</code>中添加<code>aplayer: true</code></p>
+<p>使用方法:</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;%  aplayer</span><br><span class="line"><span class="code">    url=&quot;https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.mp3&quot;</span></span><br><span class="line"><span class="code">    name=&quot;アイロニ&quot;</span></span><br><span class="line"><span class="code">    artist=&quot;鹿乃&quot;</span></span><br><span class="line"><span class="code">    cover=&quot;https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.jpg&quot;</span></span><br><span class="line"><span class="code">    lrc=&quot;https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.lrc&quot;</span></span><br><span class="line"><span class="code">    lrcType=&quot;3&quot;</span></span><br><span class="line"><span class="code">%&#125;</span></span><br></pre></td></tr></table></figure>
+
+<div class="aplayer-box" data-url='https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.mp3' data-name='アイロニ' data-artist='鹿乃' data-cover='https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.jpg' data-lrc='https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.lrc' data-lrcType='3' ></div>
+
+
+<h2 id="dplayer"><a href="#dplayer" class="headerlink" title="dplayer"></a>dplayer</h2><p>插入dplayer音频播放器需要在<code>Front-matter</code>中添加<code>dplayer: true</code></p>
+<p>使用方法:</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;%  dplayer</span><br><span class="line"><span class="code">    url=&quot;https://qiniu.sukoshi.xyz/video/%E7%BE%8E.mp4&quot;</span></span><br><span class="line"><span class="code">    pic=&quot;https://qiniu.sukoshi.xyz/video/%E7%BE%8E.mp4?vframe/jpg/offset/10&quot;</span></span><br><span class="line"><span class="code">%&#125;</span></span><br></pre></td></tr></table></figure>
+
+<div class="dplayer-box" data-url='https://qiniu.sukoshi.xyz/video/%E7%BE%8E.mp4' data-pic='https://qiniu.sukoshi.xyz/video/%E7%BE%8E.mp4?vframe/jpg/offset/10' ></div>
       </section>
 
       
@@ -166,8 +175,8 @@
     
     <div class="card-text">
       
-        <a href="/2021/07/01/elements/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">Elements</h2>
+        <a href="/2021/07/09/%E5%90%90%E6%A7%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">吐槽自己的大学生活</h2>
         </a>
       
       <div class="card-text--row">Newer</div>
@@ -175,6 +184,20 @@
   </article>
 </div>
           
+          
+            <div class="article-nav-item layout-padding">
+  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
+    
+    <div class="card-text">
+      
+        <a href="/2021/07/06/%E5%AE%9E%E4%B9%A0%E4%BD%93%E9%AA%8C/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">实习体验</h2>
+        </a>
+      
+      <div class="card-text--row">Older</div>
+    </div>
+  </article>
+</div>
           
         </nav>
       
@@ -326,7 +349,70 @@
   <!-- aplayer -->
 
 
+  <!-- aplayer 音频 start -->
+  <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
+  <script type="text/javascript" src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <script type="text/javascript">
+    const aplayer = document.querySelectorAll(".aplayer-box");
+    aplayer && initaplayer(aplayer);
+    function initaplayer(els) {
+      let elsArr = Array.from(els);
+      elsArr.forEach(el => {
+        let params = {
+          container: el,
+          audio: { ...el.dataset },
+          theme: "#b7daff",
+          autoplay: false,
+          loop: false,
+          mutex: true,
+        }
+        if (el.dataset.lrc) {
+          params['lrcType'] = 3
+        }
+        new APlayer(params);
+      });
+    }
+  </script>
+  <!-- aplayer 音频 end -->
+  
+
+
 <!-- dplayer -->
+
+
+<!-- dplayer 视频 start -->
+<script type="text/javascript" src="https://unpkg.com/hls.js@1.0.1/dist/hls.js"></script>
+<script type="text/javascript" src="https://unpkg.com/dplayer@1.25.1/dist/DPlayer.min.js"></script>
+<script type="text/javascript">
+  const dplayer = document.querySelectorAll(".dplayer-box");
+  dplayer && initDPlayer(dplayer);
+  function initDPlayer(els) {
+    let elsArr = Array.from(els);
+    elsArr.forEach(el => {
+      let url = el.dataset.url;
+      let pic = el.dataset.pic;
+      let subtitle = el.dataset.subtitle;
+
+      let options = {
+        container: el,
+        video: { url: url, pic: pic },
+        theme: "#b7daff",
+        autoplay: false,
+        loop: false,
+        mutex: true,
+      }
+
+      if (subtitle) {
+        options.subtitle = {
+          url: el.dataset.subtitle,
+        }
+      }
+      new DPlayer(options);
+    });
+  }
+</script>
+<!-- dplayer 视频 end -->
+
 
 
 
